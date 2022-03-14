@@ -52,4 +52,10 @@ public class TimerScript : MonoBehaviour
 
         scoreText.text = 0 + "";
     }
+
+    public void CloseGame()
+    {
+        Application.Quit();
+    }
+    // Application.Quit();
 }
