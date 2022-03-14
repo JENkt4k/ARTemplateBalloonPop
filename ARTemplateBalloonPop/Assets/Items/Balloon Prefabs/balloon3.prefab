@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6992462254440059297}
   - component: {fileID: 3618288481755852120}
   - component: {fileID: -2045913782551832534}
+  - component: {fileID: 3744984433763071735}
   m_Layer: 0
   m_Name: balloon3
   m_TagString: Untagged
@@ -94,3 +95,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01aaa2a007e3351419b9d5c58a842c7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!135 &3744984433763071735
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3029348291577108868}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.0200246
+  m_Center: {x: 0, y: 0.020082077, z: 4.656613e-10}
