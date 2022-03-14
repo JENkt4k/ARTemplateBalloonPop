@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class ShootScript : MonoBehaviour
 {
     public Camera arCamera;
 
     public GameObject popSoundObject;
+    public AudioClip popSoundClip;
+
+    public AudioSource audioSource;
 
     public static int score;
 
@@ -23,7 +27,13 @@ public class ShootScript : MonoBehaviour
             {
                 Destroy(hit.transform.gameObject);
 
-                Instantiate(popSoundObject);
+                //Instantiate(popSoundObject);
+                if(audioSource != null)
+                {
+                    GetComponent<AudioSource>().PlayOneShot(popSoundClip);
+                    //audioSource.Play();
+                }
+                
 
                 score += 1;
 
