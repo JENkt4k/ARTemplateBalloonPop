@@ -10,6 +10,14 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
+/ARTemplateBalloonPop/[Ll]ibrary/
+/ARTemplateBalloonPop/[Tt]emp/
+/ARTemplateBalloonPop/[Oo]bj/
+/ARTemplateBalloonPop/[Bb]uild/
+/ARTemplateBalloonPop/[Bb]uilds/
+/ARTemplateBalloonPop/[Ll]ogs/
+/ARTemplateBalloonPop/[Uu]ser[Ss]ettings/
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
