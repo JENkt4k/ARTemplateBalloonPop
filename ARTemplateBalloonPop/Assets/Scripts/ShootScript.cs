@@ -11,6 +11,8 @@ public class ShootScript : MonoBehaviour
     public GameObject popSoundObject;
     public AudioClip popSoundClip;
 
+    public AudioSource audioSourceVorb;
+
     public AudioSource audioSource;
 
     public static int score;
@@ -31,7 +33,8 @@ public class ShootScript : MonoBehaviour
                 if(audioSource != null)
                 {
                     GetComponent<AudioSource>().PlayOneShot(popSoundClip);
-                    //audioSource.Play();
+                    //GetComponent<AudioSource>().PlayOneShot(popSoundClip);
+                    audioSource.Play();
                 }
                 
 
