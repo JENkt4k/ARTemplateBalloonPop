@@ -2281,6 +2281,7 @@ MonoBehaviour:
   arCamera: {fileID: 22732920}
   popSoundObject: {fileID: 5334493901780012064, guid: 9a212072a4845824d980a4dcb78d2fe4,
     type: 3}
+  popSoundClip: {fileID: 8300000, guid: 5eb3a8ad08f079c44b97c7187df568ed, type: 3}
   audioSource: {fileID: 1442185432}
   scoreText: {fileID: 1749308727}
 --- !u!4 &837005996
@@ -2932,7 +2933,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5eb3a8ad08f079c44b97c7187df568ed, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

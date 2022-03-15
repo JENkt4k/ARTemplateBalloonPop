@@ -30,8 +30,8 @@ public class ShootScript : MonoBehaviour
                 //Instantiate(popSoundObject);
                 if(audioSource != null)
                 {
-                    GetComponent<AudioSource>().PlayOneShot(popSoundClip);
-                    //audioSource.Play();
+                    //GetComponent<AudioSource>().PlayOneShot(popSoundClip);
+                    audioSource.Play();
                 }
                 
 
