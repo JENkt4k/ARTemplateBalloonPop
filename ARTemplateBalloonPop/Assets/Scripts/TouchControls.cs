@@ -49,7 +49,7 @@ public partial class @TouchControls : IInputActionCollection2, IDisposable
                     ""name"": ""TouchPosition"",
                     ""type"": ""PassThrough"",
                     ""id"": ""2565c565-9308-4cbd-a227-40e40dab5da3"",
-                    ""expectedControlType"": ""Vector2"",
+                    ""expectedControlType"": ""Vector3"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false

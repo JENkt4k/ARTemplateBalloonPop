@@ -24,6 +24,7 @@ public class ShootScript : MonoBehaviour
 
         if (Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit))
         {
+            Debug.Log("Testing Shoot origin hit " + hit.transform.position.ToString());
             if (hit.transform.name.Contains("balloon"))
             {
                 Destroy(hit.transform.gameObject);
