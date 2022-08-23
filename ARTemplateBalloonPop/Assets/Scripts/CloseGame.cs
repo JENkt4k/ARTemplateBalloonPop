@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.InputSystem;
+
 public class CloseGame : MonoBehaviour
 {
+    private TouchControls touchControls;
     bool exit = false;
     // Start is called before the first frame update
     void Start()
@@ -14,7 +17,8 @@ public class CloseGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Escape))
+        bool escKey = true;// touchControls.Touch.TouchInput.ReadValue<Vector2> 
+        if (escKey) //Input.GetKeyUp(KeyCode.Escape)) //added for android exit
         {
             if (Application.platform == RuntimePlatform.Android)
             {

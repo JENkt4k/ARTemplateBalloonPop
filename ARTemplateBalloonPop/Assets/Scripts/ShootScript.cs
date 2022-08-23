@@ -20,6 +20,7 @@ public class ShootScript : MonoBehaviour
     public void Shoot()
     {
         RaycastHit hit;
+        Debug.Log("Testing 1 2 3 in shoot method ");
 
         if (Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit))
         {
